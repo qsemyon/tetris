@@ -1,4 +1,4 @@
-package com.example.tetris.ui.theme
+package com.qsemyon.tetris.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

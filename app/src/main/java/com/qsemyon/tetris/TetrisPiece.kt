@@ -1,4 +1,4 @@
-package com.example.tetris
+package com.qsemyon.tetris
 
 import androidx.compose.ui.graphics.Color
 
@@ -20,7 +20,6 @@ data class ActivePiece(
 ) {
     fun getRelativeCoords(): List<Pair<Int, Int>> {
         if (type == Tetromino.O) return type.shape
-
         var coords = type.shape
         repeat(rotation % 4) {
             coords = coords.map { (r, c) -> c to -r }
