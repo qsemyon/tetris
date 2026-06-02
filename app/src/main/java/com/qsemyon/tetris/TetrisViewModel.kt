@@ -67,7 +67,6 @@ class TetrisViewModel : ViewModel() {
         gameJob?.cancel()
         gameJob = viewModelScope.launch {
             while (true) {
-                // Теперь gameSpeed используется, и варнинг исчезнет
                 delay(gameSpeed)
                 moveDown()
             }

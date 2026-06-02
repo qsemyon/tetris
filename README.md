@@ -1,6 +1,6 @@
 # Tetris
 
-![Screenshot](screenshot.png)
+<img src="screenshot.png" width="300">
 
 Классический тетрис, написанный на **Kotlin** с использованием **Jetpack Compose**
 
@@ -20,10 +20,9 @@
 *   **Build System**: Gradle (Kotlin DSL)
 
 ## Установка и запуск
-1. Клонировать репозиторий:
+1. Клонировать репозиторий
 ```bash
-  git clone https://github.com/qsemyon/tetris-kotlin
-  cd tetris-kotlin
+  git clone https://github.com/qsemyon/tetris
 ```
 2. Открыть проект в Android Studio
-3. Дождаться синхронизации Gradle и запустить проект на устройстве или эмуляторе (API 24+)
+3. Дождаться синхронизации Gradle и запустить проект на устройстве или эмуляторе (API 26+)
